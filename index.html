@@ -5,34 +5,34 @@
 		<title>World Database Lookup</title>
 
 		<!-- you can modify this as needed or to your preference -->
+		<link href="http://fonts.cdnfonts.com/css/cutive-mono" rel="stylesheet">
 		<link href="world.css" type="text/css" rel="stylesheet" />
 	</head>
 
 	<body>
 		<header>
 			<div class="container">
+				<img src="./pin.png" alt="">
 				<h1>World Database Lookup</h1>
 			</div>
 		</header>
 
 		<main>
-			<div class="container">
+			<div class="Control-container">
+				<input id="country" type="search" name="country" placeholder="Enter country name" />
 				<div id="controls">
-					<label for="country">Country:</label>
-					<input id="country" type="search" name="country" placeholder="Enter country name" />
-					<button id="lookup">Lookup</button>
+					<button id="lookup">Lookup Country</button>
 					<button id="lookupCity">Lookup Cities</button>
 				</div>
-
-				<div id="result">
-					<!-- countries will appear here -->
-				</div>
+			</div>
+			<div id="result">
+				<!-- countries will appear here -->
 			</div>
 		</main>
 
 		<footer>
 			<div class="container">
-
+				<p>Icons made by <a href="https://www.flaticon.com/authors/amonrat-rungreangfangsai" title="amonrat rungreangfangsai">amonrat rungreangfangsai</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
 			</div>
 		</footer>
 

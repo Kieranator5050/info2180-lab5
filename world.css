@@ -1,1 +1,126 @@
 /* Add your own styles */
+/* Add your own styles */
+:root{
+  --btn-padding-size: 1%;
+}
+
+body{
+  font-family: 'Cutive Mono', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #374785;
+  color: white;
+}
+
+.container{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  margin: 0;
+}
+
+img{
+  height: 10%;
+  width: 10%;
+  margin-right: 30px;
+}
+
+p{
+  margin: 0;
+}
+
+header{
+  background-color: #24305E;
+  color: #FEFFFF;
+  padding: 3%;
+}
+
+main {
+  margin: 3%;
+}
+
+.Control-container{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#country{
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1%;
+}
+
+#controls{
+  margin-top: 1%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#lookup{
+  width: 10%;
+
+  background-color: #F76C6C;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: white;
+  margin: 0 2% 0 0;
+  padding: var(--btn-padding-size) 0;
+}
+#lookup:hover{
+  background-color: #A8D0E6;
+  cursor: pointer;
+}
+
+#lookupCity{
+  width: 10%;
+
+  background-color: #F76C6C;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: white;
+  margin: 0 0 0 1%;
+  padding: var(--btn-padding-size) 0;
+}
+#lookupCity:hover{
+  background-color: #A8D0E6;
+  cursor: pointer;
+}
+
+#result{
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  align-items: center;
+}
+
+table, td, th {
+  border: 1px solid black;
+  background-color: #F8E9A1;
+  color: #303332;
+  font-weight: bold;
+  text-align: center;
+}
+th{
+  font-size: 24px;
+  color: black;
+}
+
+
+a{
+  color: white;
+}
